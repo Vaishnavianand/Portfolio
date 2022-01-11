@@ -1,0 +1,407 @@
+body {
+    background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.content-wrap {
+    width: 100%;
+}
+
+
+.heading {
+    font-family: "Merriweather", serif;
+    font-size: 4rem;
+}
+
+.display-3 {
+    font-size: 4rem;
+}
+
+.display-3 kbd {
+    background-color: rgb(58, 7, 7);
+    border-radius: 8px;
+}
+
+.nav-item {
+    transition: all 0.3s;
+}
+
+.navbar .nav-link {
+    font-weight: bold;
+    font-size: large;
+}
+
+.navbar .nav-item.active {
+    border-bottom: #eba68a 2px solid;
+}
+
+.headline {
+    font-family: "Merriweather";
+    font-weight: 550;
+}
+
+.tagline {
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-caption {
+    /* padding-bottom: 110px; */
+    /* position: relative; */
+    top: 5rem !important;
+}
+
+.carousel-image-1 {
+    background: url("../assets/Untitled\ design.jpg");
+    object-fit: cover;
+}
+
+.carousel-image-2 {
+    background: url("../assets/Untitled\ design\ \(1\).jpg");
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 3.25rem;
+    font-family: "Merriweather", serif;
+}
+
+.card-text {
+    color: rgb(197, 193, 193);
+}
+
+.card-container {
+    padding-top: 80px;
+}
+
+.project1 {
+    background-color: #c47c60;
+}
+
+.project2 {
+    background-color: #cc8a6d;
+}
+
+.card {
+    transition: transform 0.3s;
+    border-radius: .7rem;
+}
+
+.card:hover {
+    transform: translateY(-1rem) scale(1.03);
+    /* transform: scale(1.05); */
+    /* box-shadow: 0 2.5rem 4rem rgba(#000000, 0.5); */
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+}
+
+a.custom-card,
+a.custom-card:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.img-fluid {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery-wrapper {
+    box-sizing: border-box;
+}
+
+.gallery-loop {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.aem-color {
+    background-color: #745140;
+}
+
+.project-description {
+    font-size: x-large;
+}
+
+.proj-desc {
+    font-size: 17px;
+}
+
+.d-inline-flex {
+    font-size: 17px;
+}
+
+.proj-problem {
+    background-color: #e9c2b3;
+    font-size: 17px;
+}
+
+.proj-action {
+    background-color: #745140;
+    color: white;
+}
+
+.list-group {
+    font-size: 22px;
+}
+
+.section-element-stretch-image {
+    margin: 5% 0 0;
+}
+
+.section-element-stretch-image>img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    padding-left: 14px;
+}
+
+.about {
+    padding: 60px 20px 100px 50px;
+    font-size: 2.5em;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-intro {
+    padding: 60px 20px 50px 50px;
+}
+
+.headline {
+    max-width: 800px;
+}
+
+.about-container {
+    width: 80vw;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.about-content-holder {
+    flex: 0.4;
+}
+
+.about-quote {
+    font-family: "Merriweather", serif;
+    font-size: 24px;
+    font-style: italic;
+    max-width: 750px;
+    min-width: 300px;
+}
+
+.about-image {
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s;
+    /* Firefox */
+    -webkit-animation: fadein 0.5s;
+    /* Safari and Chrome */
+    -o-animation: fadein 0.5s;
+    /* Opera */
+    flex: 0.6;
+    max-width: 750px;
+    min-width: 280px;
+}
+
+.about-image img {
+    padding: 0 5% 0 5%;
+    width: 85%;
+}
+
+.about-content {
+    max-width: 500px;
+    margin: 20px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+.button {
+    background-color: #c47c60;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #745140;
+    color: white;
+  }
+
+.gallery-title {
+    font-family: "Merriweather", serif;
+}
+
+.social-media-link {
+    text-decoration: none;
+    font-size: 50px;
+    color: #bbb;
+    -webkit-transition: color 0.7s;
+    transition: color 0.7s;
+}
+
+.social-media-link:hover {
+    color: #c47c60;
+}
+
+.far fa-lightbulb {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+}
+
+.information{
+ color: #745140; 
+ font-family: "Open Sans", sans-serif;
+ font-size: 24px;
+ padding-left: 112px;
+ margin: 10px 0 0 10px;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 100%;
+ animation: animtext 4s steps(80, end); 
+ animation-iteration-count: infinite;
+ transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+}
+
+@keyframes a-ltr-after{
+    0% {transform: translateX(-100%)}
+    100% {transform: translateX(101%)}
+}
+
+@keyframes a-ltr-before{
+    0% {transform: translateX(0)}
+    100% {transform: translateX(200%)}
+}
+
+@media (max-width: 1000px) {
+    .social-media-link {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .social-media-link {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 546px) {
+    .card-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .nav-main-box {
+        padding: 0 !important;
+        padding-top: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-title {
+        font-size: 3.25rem;
+    }
+}
+
+@media (max-width: 664px) {
+    .display-3 {
+        font-size: 3rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-title {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-title {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+
+    .about-image img {
+      padding: 0 0 40px 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .introduction {
+        font-size: 36px;
+        padding: 30px;
+        margin-bottom: 40px;
+      }
+      .about-container {
+        padding: 0 20px;
+      }
+      .about-image img {
+        padding: 0 0 0 0;
+      }
+      .information {
+        font-size: 22px;
+        padding-left: 0px;
+      }
+    }
+
+    @media screen and (max-width: 359px) {
+          .introduction {
+            font-size: 32px;
+            padding: 30px;
+            margin-bottom: 40px;
+            text-align: center;
+          }
+          .about-container {
+            padding: 0 20px;
+          }
+          .about-image img {
+            padding: 0 0 0 0;
+          }
+          .information {
+            font-size: 22px;
+            padding-left: 0px;
+        }
+        }
