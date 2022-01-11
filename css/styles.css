@@ -134,6 +134,10 @@ a.custom-card:hover {
     background-color: #745140;
 }
 
+.clr {
+    color: #745140;
+}
+
 .project-description {
     font-size: x-large;
 }
