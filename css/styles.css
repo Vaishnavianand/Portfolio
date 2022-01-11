@@ -113,6 +113,11 @@ a.custom-card:hover {
     text-decoration: none;
 }
 
+.text-muted {
+    font-size: 13px;
+    font-weight: normal;
+}
+
 .img-fluid {
     width: 500px;
     height: 200px;
