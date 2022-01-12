@@ -83,6 +83,10 @@ html {
     color: rgb(197, 193, 193);
 }
 
+.card-text-1 {
+    color: rgb(122, 122, 122);
+}
+
 .card-container {
     padding-top: 80px;
 }
@@ -93,6 +97,10 @@ html {
 
 .project2 {
     background-color: #cc8a6d;
+}
+
+.project3 {
+    background-color: #eba68a;
 }
 
 .card {
@@ -252,8 +260,9 @@ ul {
 .button {
     background-color: #c47c60;
     border: none;
+    border-radius: 10px;
     color: white;
-    padding: 16px 32px;
+    padding: 8px 16px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
